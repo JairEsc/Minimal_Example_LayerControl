@@ -74,4 +74,4 @@ def log(base_layer, overlays):
     return f"Base layer is {base_layer}, selected overlay(s): {json.dumps(overlays)}"
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run(debug=True, port=8050)
